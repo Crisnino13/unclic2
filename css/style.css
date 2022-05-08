@@ -64,9 +64,26 @@ h3{
     padding-right: 4px;
 }
 
+.text-left{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    
+}
 .a-yellow{
     text-decoration: none;
     color: #FDC224;
+}
+
+.a-azul{
+    color: #0049AC;
+    text-decoration: underline;
+}
+
+a:visited{
+    text-decoration: none;
 }
 
 
@@ -77,6 +94,14 @@ backgound
 
 .bg-azul-gradient{
     background: linear-gradient(180deg, #007EB299 0%, #00405F00 100%) 0% 0% no-repeat;
+}
+
+.bg-white{
+    background-color: #F2F2F2;
+}
+
+.text-dark{
+    color: #00405F;
 }
 
 body{
@@ -117,6 +142,19 @@ body{
     font-size: 16px;
     font-family: 'Omnes';
     font-weight: 500;
+}
+
+.boton-azul{
+    padding: 8px;
+    margin-top: 24px;
+    background-color: #2748AC;
+    border: none;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    font-family: 'Omnes';
+    font-weight: 500;
+    color: #ffffff;
 }
 
 .boton-outline{
@@ -174,6 +212,41 @@ body{
     display: block;
     padding: 24px;
     border-radius: 4px;
+}
+
+/**Iniciar sesion estilos**/
+
+.contenedor-perfil{
+    display: flex;
+    width: 100%;
+    background-image: url(../img/trama.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88px;
+}
+
+.img-perfil{
+    height: 112px;
+    width: 112px;
+    background-color: #001839;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    display: flex;
+    border-radius: 4px;
+}
+
+.img-perfil img{
+    margin: auto;
+    
+}
+
+/**Contendor preguntas**/
+
+.contenedor-preguntas{
+    width: 427px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 768px){
@@ -255,6 +328,33 @@ input{
 
 input::placeholder{
     color: #ffffff79;
+    font-size: 16px;
+}
+
+.input-light{
+    display: flex;
+    width: 100%;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: #DBDBDB;
+    box-shadow: 0px 3px 6px #5A5A5A24;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    color: #262626;
+    padding: 8px;
+    font-family: 'Omnes';
+    font-size: 18px;
+
+}
+
+label{
+    
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-light::placeholder {
+    color: #26262673;
     font-size: 16px;
 }
 
