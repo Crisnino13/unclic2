@@ -247,8 +247,9 @@ html{
     width: 100%;
     background-image: url(../img/trama.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 88px;
+    background-size: inherit;
+    height: 128px;
+    /**antes tebia 88px**/
 }
 
 .img-perfil{
