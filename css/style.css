@@ -276,6 +276,12 @@ html{
 }
 
 @media (max-width: 768px){
+
+    .def-alto{
+        height: 100%;
+        display: grid;
+    }
+
     .menu{
         justify-content: space-between;
         display: flex;
