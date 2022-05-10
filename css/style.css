@@ -281,7 +281,7 @@ html{
 
     .def-alto{
         height: 100%;
-        display: grid;
+        /**display: grid;**/
     }
 
     .menu{
