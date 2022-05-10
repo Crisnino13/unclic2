@@ -365,9 +365,18 @@ input{
 }
 
 input::placeholder{
+    background-color: #00405F;
     color: #ffffff79;
     font-size: 16px;
 }
+
+input:focus-visible{
+    outline: 2px solid #007EB2;
+    color: aliceblue;
+  
+}
+
+
 
 .input-light{
     display: flex;
@@ -394,5 +403,12 @@ label{
 .input-light::placeholder {
     color: #26262673;
     font-size: 16px;
+    background-color: white;
 }
 
+.input-light:focus-visible{
+    outline: 2px solid #424242;
+    color: aliceblue;
+    background-color: white;
+  
+}

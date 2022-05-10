@@ -35,13 +35,13 @@
                             <h4>Crear cuenta</h4>
                             <!--Campos form-->
                             <label for="name">Nombre</label><br>
-                            <input type="text" name="name" placeholder="Como aparece en la cédula">
+                            <input type="text" name="name" placeholder="Como aparece en la cédula" required>
                             <label for="mail">Correo electrónico</label><br>
-                            <input type="text" name="mail" placeholder="nombre@mail.com">
+                            <input type="text" name="mail" placeholder="nombre@mail.com" required pattern="[\w.%+-]+@[\w.-]+\.[a-zA-Z]{2,4}">
                             <label for="phone">Celular</label><br>
-                            <input type="text" name="phone" placeholder="1234567890">
+                            <input type="text" name="phone" placeholder="1234567890" required pattern="[0-9]{10,10}">
                             <label for="contrasena">Contraseña</label><br>
-                            <input type="password" name="contrasena" placeholder="W3tcya5p.">
+                            <input type="password" name="contrasena" placeholder="W3tcya5p." required>
                             <!--Boton enviar-->
                             <div class="terminos">
                                 <p class="small">Al dar clic en crear indicas que has leído, estás de 
