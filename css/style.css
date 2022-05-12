@@ -137,11 +137,6 @@ html{
 }
 
 
-.def-alto{
-    
-    display: grid;
-}
-
 .contenedor{
     max-width: 1090px;
     margin-left: auto;
@@ -155,6 +150,12 @@ html{
     justify-content: space-between;
     display: flex;
     padding: 8px;
+}
+
+.datos-user{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .boton{
@@ -251,7 +252,9 @@ html{
     background-image: url(../img/trama.png);
     background-repeat: no-repeat;
     background-size: inherit;
-    height: 128px;
+    height: 144px;
+
+
     /**antes tebia 88px**/
 }
 
@@ -277,6 +280,8 @@ html{
     width: 427px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    margin-top: 40px;
 }
 
 @media (max-width: 768px){
