@@ -373,6 +373,11 @@ footer{
     
 }
 
+.pie{
+
+    display: flex;
+}
+
 input{
     display: flex;
     width: 100%;
