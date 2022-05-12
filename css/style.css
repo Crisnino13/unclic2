@@ -375,7 +375,7 @@ footer{
 
 .pie{
     background-color: #00405F;
-    display: flex;
+    display: block;
     width: 100%;
     justify-content: center;
 }
