@@ -124,8 +124,9 @@ body{
     color: aliceblue;
     margin: 0;
     font-family: 'Omnes';
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    
     
     
 }
@@ -137,7 +138,7 @@ html{
 
 
 .def-alto{
-    height: 100vh;
+    
     display: grid;
 }
 
@@ -280,10 +281,7 @@ html{
 
 @media (max-width: 768px){
 
-    .def-alto{
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
 
     .menu{
         justify-content: space-between;
@@ -359,6 +357,8 @@ footer{
     margin-top: auto;
     width: 100%;
     z-index: 20;
+    display: flex;
+    justify-content: center;
     
 }
 
