@@ -374,7 +374,7 @@ footer{
 }
 
 .pie{
-
+    background-color: red;
     display: flex;
 }
 
