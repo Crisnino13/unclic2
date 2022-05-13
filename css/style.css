@@ -255,7 +255,7 @@ html{
     width: 100%;
     background-image: url(../img/trama.png);
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: contain;
     height: 144px;
 
 
