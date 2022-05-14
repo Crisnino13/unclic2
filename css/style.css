@@ -257,7 +257,9 @@ html{
     background-repeat: no-repeat;
     background-size: auto;
     height: 144px;
-
+    background-repeat-x: initial;
+    background-position-x: initial;
+    
 
     /**antes tebia 88px**/
 }
@@ -371,6 +373,7 @@ footer{
     z-index: 20;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     
 }
 
