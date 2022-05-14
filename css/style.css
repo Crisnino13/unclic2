@@ -374,6 +374,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: relative;
     
 }
 
@@ -382,6 +383,8 @@ footer{
     display: block;
     width: 100%;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
     
 }
 
